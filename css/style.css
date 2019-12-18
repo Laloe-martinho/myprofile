@@ -1,0 +1,183 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 2.5vh
+}
+
+h3 {
+	font-size: 1.9vh;
+	text-align: center;
+	color: rgb(44, 62, 80);
+}
+nav {
+	background-color: rgb(44, 62, 80);
+	position: fixed;
+	height: 3.5vh;
+	width: 100%
+}
+
+#left {
+	float: left;
+	color: white;
+	font-size: 2.6vh
+}
+
+.right {
+	float: right;
+	display: inline-block;
+	color: white;
+	font-size: 1.9vh;
+	padding: 5px
+}
+
+header {
+	background-color: rgb(23, 188, 154);
+	width: 100%;
+	height: 45vh;
+	text-align: center;
+	color: white;
+}
+
+header img {
+	width: 20vh
+}
+section {
+	text-align: center;
+	padding: 40px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+section img {
+	height: 40%;
+	width: 20%;
+	padding: 5%;
+}
+
+#propos {
+	background-color: rgb(23, 188, 154);
+}
+
+#propos div {
+	display: inline-block;
+	width: 20%;
+	padding: 10px 5vh
+}
+
+#propos h2 {
+	color: white;
+}
+
+#tleft , #tright {
+	width: 20%,
+	height: 25vh;
+	font-size: 1.9vh
+
+}
+
+#tleft {
+	margin-left: 5%;
+}
+
+#tright {
+	margin-right: 5%;
+}
+
+p {
+	text-align: left;
+	color: white;
+}
+
+#contact {
+	width: 100%;
+	padding: 50px 0 50px 0;
+	margin: 0;
+}
+
+#formul {
+	width: 100%;
+	padding-top: 30px;
+}
+
+label {
+	font-size: 1.9vh;
+	float: left;
+	margin-left: 35%
+}
+
+input , textarea {
+	float: left;
+	margin-left: 35%;
+	width: 30%;
+	border: 1px dashed;
+	border-radius: 5px;
+}
+
+#bot {
+	background-color: rgb(44, 62, 80);
+	width: 100%;
+	padding: 50px 0 50px 0; 
+	color: white
+}
+
+.botleft {
+	float: left;
+	margin-left: 8%
+}
+
+.botright {
+	float: right;
+	margin-right: 8%
+}
+
+#footer {
+	margin: 0;
+	padding: 15px 0 0 0;
+	background-color: rgb(27, 27, 47);
+	width: 100%;
+	height: 5vh;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+button{
+	text-decoration: none;
+	display: inline-block;
+	justify-content: center;
+	height: 50px;
+	width:10%;
+	background-color: rgb(23, 188, 154);
+	border-radius: 10px;
+	box-shadow: 9px 10px 10px -10px black;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+	header img {
+		height: 15vh;
+		width: 15vh;
+	}
+
+	#portfolio {
+		float: left;
+	}
+	#portfolio img {
+		width: 80%
+	}
+
+	#propos div {
+		float: left;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
